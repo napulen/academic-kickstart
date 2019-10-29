@@ -39,7 +39,7 @@ url_code: 'https://github.com/napulen/encoding_matters'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
-# url_slides: ''
+url_slides: 'slides/encoding_matters/encoding_matters.pdf'
 # url_source: '#'
 url_video: 'https://medias.ircam.fr/x86476e'
 
