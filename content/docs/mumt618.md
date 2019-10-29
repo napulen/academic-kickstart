@@ -386,13 +386,13 @@ play(s);
 
 Here is an example of the model applied to an audio sample of a clean electric guitar[^1]:
 
-{{% staticref "img/mumt618/guitar_clean.wav" %}}Original audio{{% /staticref %}} $ $
+{{% staticref "audio/mumt618/guitar_clean.wav" %}}Original audio{{% /staticref %}} $ $
 
-{{% staticref "img/mumt618/bjt.wav" %}}Transistor Booster Stage only{{% /staticref %}} $ $
+{{% staticref "audio/mumt618/bjt.wav" %}}Transistor Booster Stage only{{% /staticref %}} $ $
 
-{{% staticref "img/mumt618/opamp.wav" %}}Op-Amp Gain Stage only{{% /staticref %}} $ $
+{{% staticref "audio/mumt618/opamp.wav" %}}Op-Amp Gain Stage only{{% /staticref %}} $ $
 
-{{% staticref "img/mumt618/bjt_opamp.wav" %}}Transistor Booster Stage and Op-Amp Gain Stage{{% /staticref %}} $ $
+{{% staticref "audio/mumt618/bjt_opamp.wav" %}}Transistor Booster Stage and Op-Amp Gain Stage{{% /staticref %}} $ $
 
 
 [^1]: This audio sample has been obtained from [FreeSound](https://freesound.org/people/LG/sounds/16054/).
