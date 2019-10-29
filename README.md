@@ -10,6 +10,7 @@ This repository is a fork of the `academic-kickstart` repository.
 The `master` branch of this repository should always point to the latest `master` of the original repo.
 
 If cloning for the first time, add the remote to the original repo:
+
 ```bash
 git remote add original https://github.com/sourcethemes/academic-kickstart.git
 ```
@@ -21,7 +22,24 @@ The `napulen.github.io` branch of this repository has the changes introduced for
 When migrating to a newer version of the `academic` repository.
 
 Sync this `master` and get it up to date
+
 ```bash
 git checkout master
 git pull original master
 ```
+
+While on that branch, build the newest version of `academic` and make sure it works
+
+```
+hugo server
+```
+
+Check http://localhost:1313
+
+# Render the full example from academic instead of minimal
+
+The `academic` submodule (`themes/academic`) provides a full demo of the website with several sections and entries.
+
+The version rendered by `academic-kickstart`, however, is minimal.
+
+In order to get the full example working on master, create symbolic links to the example site of `themes/academic`.
