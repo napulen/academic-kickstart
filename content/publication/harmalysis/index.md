@@ -47,7 +47,7 @@ url_code: 'https://github.com/napulen/harmalysis'
 url_project: 'https://pypi.org/project/harmalysis'
 url_slides: 'slides/harmalysis/harmalysis.pdf'
 # url_source: ''
-# url_video: '#'
+url_video: 'video/harmalysis/harmalysis.webm'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
