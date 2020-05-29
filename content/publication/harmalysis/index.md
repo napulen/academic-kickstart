@@ -52,7 +52,7 @@ url_video: 'video/harmalysis/harmalysis.webm'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Effects of Translation Between Symbolic Music Formats'
+  caption: 'Harmalysis'
   focal_point: ""
   preview_only: false
 
