@@ -13,13 +13,13 @@ publishDate: "2020-05-04T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["0"]
 
 # Publication name and optional abbreviated publication name.
 publication: "In CIRMMT-OICRM-BRAMS Student Symposium"
 publication_short: "In COBS"
 
-abstract: "The training of musicianship skills in college-level students remains a significant pedagogical challenge for several reasons, including: diverse student skill levels, motivation, regular practice, and engagement with exercises. Our approach was to use gamification to promote engagement during a commonly employed exercise - the identification of pitches."
+abstract: "The training of musicianship skills in college-level students remains a significant pedagogical challenge for several reasons, including: diverse student skill levels, motivation, regular practice, and engagement with exercises. Our approach was to use gamification to promote engagement during a commonly employed exercise - the identification of pitches. The players are presented with pitches emitted by “enemies”. These enemies can be defeated by identifying their emitted scale degrees within the scale being exercised. The notes presented to the player are based on statistical pitch-class distributions, which are adjusted according to difficulty settings. We created independently-adjustable difficulty levels for the music and video game elements. This allows for students of varying skill levels and familiarity to use the game effectively. The scale and tuning systems being practiced are also customizable by the user; beyond the existing pre-generated set of Western scales, it is possible for the user to create their own scale systems, including microtonal tunings and non-Western idioms. Moreover, modification and extensions of the core game itself are also possible - the code is available through an open-source repository. In addition to this presentation, we will share a playable demo version of the game at the conference."
 
 
 # Summary. An optional shortened abstract.
