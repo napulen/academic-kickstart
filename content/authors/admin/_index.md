@@ -1,10 +1,6 @@
 ---
 # Display name
-<<<<<<< HEAD
-name: Néstor Nápoles López
-=======
 title: Néstor Nápoles López
->>>>>>> newv
 
 # Username (this should match the folder name)
 authors:
@@ -14,11 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-<<<<<<< HEAD
-role: PhD Student in Music Technology
-=======
 role: PhD Candidate in Music Technology
->>>>>>> newv
 
 # Organizations/Affiliations
 organizations:
