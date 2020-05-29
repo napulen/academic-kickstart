@@ -1,6 +1,10 @@
 ---
 # Display name
+<<<<<<< HEAD
 name: Néstor Nápoles López
+=======
+title: Néstor Nápoles López
+>>>>>>> newv
 
 # Username (this should match the folder name)
 authors:
@@ -10,7 +14,11 @@ authors:
 superuser: true
 
 # Role/position
+<<<<<<< HEAD
 role: PhD Student in Music Technology
+=======
+role: PhD Candidate in Music Technology
+>>>>>>> newv
 
 # Organizations/Affiliations
 organizations:
@@ -21,17 +29,17 @@ organizations:
 bio: I am interested in all of the ways in which modern technologies can help us to learn, understand, create, and enjoy music.
 
 interests:
-- Western Tonal Music Analysis
+- Computational Music Theory
 - Music Information Retrieval
 - Deep Learning
 - Symbolic and Audio Music Representations
-- Serious Music-Based Games
+- Game Development
 
 education:
   courses:
   - course: PhD in Music Technology
     institution: McGill University, Montréal
-    year: 2021
+    year: 2022
   - course: MSc in Sound and Music Computing
     institution: Universitat Pompeu Fabra, Barcelona
     year: 2017
@@ -40,7 +48,7 @@ education:
     year: 2013
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
@@ -50,9 +58,6 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/napulen
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/napulen/
