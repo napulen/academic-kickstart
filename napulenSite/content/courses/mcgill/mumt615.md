@@ -9,13 +9,13 @@ draft: false
 menu:
   example:
     parent: MUMT 615
-    weight: 2
+    weight: 3
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 2
+weight: 3
 ---
 
-During the course [Perception of Compositional Structures](https://perceptionofcompositionalstructures.github.io/), I participated in the design and development of an experiment on melodic tension.
+During the course [MUMT 615: Perception of Compositional Structures](https://perceptionofcompositionalstructures.github.io/), I participated in the design and development of an experiment on melodic tension.
 
 I participated developing the code of the experiment. [Erica Huynh](https://www.mcgill.ca/music/erica-huynh) designed the experiment and wrote the paper, and [Timothy Ledger](https://www.timothymledger.com/) composed the musical examples.
 

@@ -23,6 +23,10 @@ menu:
 
 This a non-exhaustive list of projects that I have worked on during my time at McGill University.
 
+## MUMT 501
+
+An implementation of one of the [barberpole phasing and flanging illusion effects](mumt501) discussed in [Esqueda et al. 2015](https://research.aalto.fi/en/publications/barberpole-phasing-and-flanging-illusions).
+
 ## MUMT 615
 
 An experiment on [melodic tension](mumt615).
@@ -31,18 +35,22 @@ An experiment on [melodic tension](mumt615).
 
 A presentation about [inharmonicity](mumt616) with musical examples.
 
-## MUMT 620
-
-## MUMT 501
-
-## MUMT 621
-
-## COMP 521
-
 ## MUMT 618
 
 An implementation of a [Boss DS-1 Distortion](mumt618) pedal.
 
-## COMP 551
+## MUMT 620
+
+A turn-based game about [musical cadences and chords](mumt620).
+
+## MUMT 621
+
+A Hidden Markov Model for [symbolic key detection](mumt621).
+
+<!-- ## COMP 521
+
+## COMP 551 -->
 
 ## MUTH 251
+
+A short essay on [Brahms Intermezzo Op.118 No.2](muth251)

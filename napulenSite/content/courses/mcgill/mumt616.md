@@ -9,23 +9,24 @@ draft: false
 menu:
   example:
     parent: MUMT 616
-    weight: 3
+    weight: 4
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 3
+weight: 4
 ---
 
-During the class *Timbre as a Form-Bearing Dimension in Music*, I talked about inharmonicity in the context of plucked strings.
+During the course [MUMT 616: Timbre as a Form-Bearing Dimension in Music](https://www.mcgill.ca/study/2018-2019/courses/mumt-616), I talked about inharmonicity in the context of plucked strings.
 
 The slides are available [here](mumt616/inharmonicity_presentation.pdf).
 
-Four examples with varying degrees of inharmonicity are discussed. The examples are qualitatively classified as:
+Five examples with varying degrees of inharmonicity are discussed. The examples are qualitatively classified as:
 
 - [No inharmonicity](#no-inharmonicity)
 - [Low inharmonicity](#low-inharmonicity)
 - [Mid inharmonicity](#mid-inharmonicity)
 - [High inharmonicity](#high-inharmonicity)
 - [Extreme inharmonicity](#extreme-inharmonicity)
+- [SuperCollider code for generating the audio samples](#supercollider-code-for-generating-the-audio-samples)
   
 The musical examples were generated from [Manuel María Ponce's Valse for Solo Guitar](http://www.classclef.com/valse-by-manuel-maria-ponce-2/).
 
@@ -42,32 +43,27 @@ The code is [listed here](#supercollider-code-for-generating-the-audio-samples) 
 ## No inharmonicity
 
 {{< figure library="1" src="mumt616/noinh.png" title="No inharmonicity" numbered="true" >}}
-
-{{% staticref "media/mumt616/noinh.mp3" %}}Audio example{{% /staticref %}}
+{{< audio src="/media/mumt616/noinh.mp3" type="audio/wav" >}}
 
 ## Low inharmonicity
 
 {{< figure library="1" src="mumt616/lowinh.png" title="Low inharmonicity" numbered="true" >}}
-
-{{% staticref "media/mumt616/lowinh.mp3" %}}Audio example{{% /staticref %}}
+{{< audio src="/media/mumt616/lowinh.mp3" type="audio/wav" >}}
 
 ## Mid inharmonicity
 
 {{< figure library="1" src="mumt616/midinh.png" title="Mid inharmonicity" numbered="true" >}}
-
-{{% staticref "media/mumt616/midinh.mp3" %}}Audio example{{% /staticref %}}
+{{< audio src="/media/mumt616/midinh.mp3" type="audio/wav" >}}
 
 ## High inharmonicity
 
 {{< figure library="1" src="mumt616/highinh.png" title="High inharmonicity" numbered="true" >}}
-
-{{% staticref "media/mumt616/highinh.mp3" %}}Audio example{{% /staticref %}}
+{{< audio src="/media/mumt616/highinh.mp3" type="audio/wav" >}}
 
 ## Extreme inharmonicity
 
 {{< figure library="1" src="mumt616/crazyinh.png" title="Extreme inharmonicity" numbered="true" >}}
-
-{{% staticref "media/mumt616/crazyinh.mp3" %}}Audio example{{% /staticref %}}
+{{< audio src="/media/mumt616/crazyinh.mp3" type="audio/wav" >}}
 
 ## SuperCollider code for generating the audio samples
 

@@ -9,10 +9,10 @@ draft: false
 menu:
   example:
     parent: MUMT 618
-    weight: 4
+    weight: 5
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 4
+weight: 5
 ---
 
 This is a report for my final project of the [MUMT 618: Computational Modeling of Musical Acoustic Systems](https://www.music.mcgill.ca/~gary/618/) class at McGill University.
@@ -385,13 +385,18 @@ play(s);
 
 Here is an example of the model applied to an audio sample of a clean electric guitar[^1]:
 
-{{% staticref "media/mumt618/guitar_clean.wav" %}}Original audio{{% /staticref %}}
 
-{{% staticref "media/mumt618/bjt.wav" %}}Transistor Booster Stage only{{% /staticref %}}
+Original audio [{{% staticref "media/mumt618/guitar_clean.wav" %}}wav{{% /staticref %}}]
+{{< audio src="/media/mumt618/guitar_clean.wav" type="audio/wav" >}}
 
-{{% staticref "media/mumt618/opamp.wav" %}}Op-Amp Gain Stage only{{% /staticref %}}
+Transistor Booster Stage only [{{% staticref "media/mumt618/bjt.wav" %}}wav{{% /staticref %}}]
+{{< audio src="/media/mumt618/bjt.wav" type="audio/wav" >}}
 
-{{% staticref "media/mumt618/bjt_opamp.wav" %}}Transistor Booster Stage and Op-Amp Gain Stage{{% /staticref %}}
+Op-Amp Gain Stage only [{{% staticref "media/mumt618/opamp.wav" %}}wav{{% /staticref %}}]
+{{< audio src="/media/mumt618/opamp.wav" type="audio/wav" >}}
+
+Transistor Booster Stage and Op-Amp Gain Stage [{{% staticref "media/mumt618/bjt_opamp.wav" %}}wav{{% /staticref %}}]
+{{< audio src="/media/mumt618/bjt_opamp.wav" type="audio/wav" >}}
 
 
 [^1]: This audio sample has been obtained from [FreeSound](https://freesound.org/people/LG/sounds/16054/).
