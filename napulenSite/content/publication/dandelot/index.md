@@ -26,7 +26,7 @@ summary: "Dandelot is a computer game that trains your skills for reading music 
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 links:
 # - name: Custom Link

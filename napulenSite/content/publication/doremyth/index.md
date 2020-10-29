@@ -27,7 +27,7 @@ summary: "Do-Re-Myth is an ear training game developed by Yuval Adler and Nésto
 
 # tags:
 # - Source Themes
-featured: true
+featured: false
 
 links:
 # - name: Custom Link

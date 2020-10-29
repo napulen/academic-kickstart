@@ -7,7 +7,7 @@ math: true
 date: "2019-05-05T00:00:00+01:00"
 draft: false
 menu:
-  example:
+  mcgill:
     parent: MUMT 501
     weight: 2
 

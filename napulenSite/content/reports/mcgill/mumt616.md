@@ -7,7 +7,7 @@ math: true
 date: "2019-05-05T00:00:00+01:00"
 draft: false
 menu:
-  example:
+  mcgill:
     parent: MUMT 616
     weight: 4
 
@@ -17,16 +17,19 @@ weight: 4
 
 During the course [MUMT 616: Timbre as a Form-Bearing Dimension in Music](https://www.mcgill.ca/study/2018-2019/courses/mumt-616), I talked about inharmonicity in the context of plucked strings.
 
-The slides are available [here](mumt616/inharmonicity_presentation.pdf).
+The slides are available {{% staticref "media/mumt616/inharmonicity_presentation.pdf" %}}here{{% /staticref %}}.
 
 Five examples with varying degrees of inharmonicity are discussed. The examples are qualitatively classified as:
 
 - [No inharmonicity](#no-inharmonicity)
+
 - [Low inharmonicity](#low-inharmonicity)
+
 - [Mid inharmonicity](#mid-inharmonicity)
+
 - [High inharmonicity](#high-inharmonicity)
+
 - [Extreme inharmonicity](#extreme-inharmonicity)
-- [SuperCollider code for generating the audio samples](#supercollider-code-for-generating-the-audio-samples)
   
 The musical examples were generated from [Manuel María Ponce's Valse for Solo Guitar](http://www.classclef.com/valse-by-manuel-maria-ponce-2/).
 
@@ -40,34 +43,36 @@ The [SuperCollider programming language](https://supercollider.github.io/) was u
 
 The code is [listed here](#supercollider-code-for-generating-the-audio-samples) for reference.
 
-## No inharmonicity
+## Examples
+
+### No inharmonicity
 
 {{< figure library="1" src="mumt616/noinh.png" title="No inharmonicity" numbered="true" >}}
 {{< audio src="/media/mumt616/noinh.mp3" type="audio/wav" >}}
 
-## Low inharmonicity
+### Low inharmonicity
 
 {{< figure library="1" src="mumt616/lowinh.png" title="Low inharmonicity" numbered="true" >}}
 {{< audio src="/media/mumt616/lowinh.mp3" type="audio/wav" >}}
 
-## Mid inharmonicity
+### Mid inharmonicity
 
 {{< figure library="1" src="mumt616/midinh.png" title="Mid inharmonicity" numbered="true" >}}
 {{< audio src="/media/mumt616/midinh.mp3" type="audio/wav" >}}
 
-## High inharmonicity
+### High inharmonicity
 
 {{< figure library="1" src="mumt616/highinh.png" title="High inharmonicity" numbered="true" >}}
 {{< audio src="/media/mumt616/highinh.mp3" type="audio/wav" >}}
 
-## Extreme inharmonicity
+### Extreme inharmonicity
 
 {{< figure library="1" src="mumt616/crazyinh.png" title="Extreme inharmonicity" numbered="true" >}}
 {{< audio src="/media/mumt616/crazyinh.mp3" type="audio/wav" >}}
 
 ## SuperCollider code for generating the audio samples
 
-```
+```supercollider
 (
 SynthDef(\inh, { |out=0, freq=440, amp=0.5, gate=1, c3=20, pan=0,fB = 180|
     var env = Env.new([0,1, 1, 0],[0.001,0.006, 0.0005],[5,-5, -8]);

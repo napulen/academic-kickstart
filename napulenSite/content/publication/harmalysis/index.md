@@ -35,7 +35,7 @@ summary: "A grammar for encoding roman numeral analysis annotations within the l
 
 # tags:
 # - Source Themes
-featured: true
+featured: false
 
 links:
 # - name: Custom Link

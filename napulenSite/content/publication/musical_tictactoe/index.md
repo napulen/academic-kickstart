@@ -26,7 +26,7 @@ summary: "A music-based game mechanic based where players compete to complete ca
 
 # tags:
 # - Source Themes
-featured: true
+featured: false
 
 links:
 # - name: Custom Link

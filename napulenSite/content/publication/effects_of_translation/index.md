@@ -29,7 +29,7 @@ summary: "What happens when you translate between different symbolic music forma
 
 # tags:
 # - Source Themes
-featured: true
+featured: false
 
 links:
 # - name: Custom Link

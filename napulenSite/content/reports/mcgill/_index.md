@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: Projects at McGill
-summary: Some of the projects I have done or participated in during my time at McGill University.
+linktitle: McGill
+summary: A non-exhaustive compendium of reports and documentation that I have worked on during my time at McGill.
 weight: 1
 
 # Page metadata.
-title: Projects at McGill
+title: Project reports at McGill
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
@@ -16,12 +16,12 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  example:
-    name: Projects at McGill
+  mcgill:
+    name: Project reports at McGill
     weight: 1
 ---
 
-This a non-exhaustive list of projects that I have worked on during my time at McGill University.
+This a non-exhaustive compendium of reports and documentation that I have worked on during my time at McGill University.
 
 ## MUMT 501
 
@@ -53,4 +53,4 @@ A Hidden Markov Model for [symbolic key detection](mumt621).
 
 ## MUTH 251
 
-A short essay on [Brahms Intermezzo Op.118 No.2](muth251)
+A short analytical essay on [Brahms Intermezzo Op.118 No.2](muth251)
