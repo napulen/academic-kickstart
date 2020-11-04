@@ -66,3 +66,4 @@ image:
 # slides: example
 ---
 
+<iframe width="480" height="360" src="https://medias.ircam.fr/embed/media/x86476e" frameborder="0" allowfullscreen></iframe>

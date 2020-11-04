@@ -43,7 +43,7 @@ url_dataset: "https://github.com/DDMAL/key_modulation_dataset"
 # url_project: ''
 url_slides: "media/modulation_tonicization/napoleslopez20local_slides.pdf"
 # url_source: '#'
-# url_video: '#'
+url_video: 'https://youtu.be/J1VZygSumN0?t=1927'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -67,3 +67,5 @@ image:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J1VZygSumN0?start=1927" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
